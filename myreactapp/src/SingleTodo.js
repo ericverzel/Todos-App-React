@@ -22,8 +22,8 @@ class SingleTodo extends Component {
 const SingleTodo = props => {
   return (
     <li>
-      {this.props.todo}
-      <button onClick={this.props.delete}>x</button>
+      {props.todo}
+      <button onClick={props.delete}>x</button>
     </li>
   );
 };
